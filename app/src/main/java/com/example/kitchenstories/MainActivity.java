@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         mRecyclerView = (RecyclerView)findViewById(R.id.recyclerView);
 
+
         GridLayoutManager gridLayoutManager = new GridLayoutManager(MainActivity.this, 1);
         mRecyclerView.setLayoutManager(gridLayoutManager);
         myFoodList = new ArrayList<>();
