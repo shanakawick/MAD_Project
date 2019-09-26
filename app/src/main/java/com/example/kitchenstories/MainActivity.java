@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(gridLayoutManager);
         myFoodList = new ArrayList<>();
 
-        mFoodData = new FoodData("Prawn Curry","Who doesn't love a taste of hot prawn curry on a cold day.Check out the recipe now.","Rs.300",R.drawable.PRAWN);
+        mFoodData = new FoodData("Prawn Curry","Who doesn't love a taste of hot prawn curry on a cold day.Check out the recipe now.","Rs.300",R.drawable.prawn);
         myFoodList.add(mFoodData);
 
-        mFoodData = new FoodData("Asian Noodle Salad","Asian inspired noodle salad is a ","",R.drawable.Asian_Noodle_Salad_9);
+        mFoodData = new FoodData("Asian Noodle Salad","Asian inspired noodle salad is a ","",R.drawable.asiannoodle);
         myFoodList.add(mFoodData);
 
         mFoodData = new FoodData("String Hoppers","what a perfect dish for a perfect breakfast","",R.drawable.stringhoppers);
