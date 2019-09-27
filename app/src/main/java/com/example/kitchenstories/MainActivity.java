@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,5 +42,8 @@ public class MainActivity extends AppCompatActivity {
         MyAdapter myAdapter = new MyAdapter(MainActivity.this,myFoodList);
         mRecyclerView.setAdapter(myAdapter);
 
+    }
+    public void btn_uploadActivity(View view){
+         startActivity(new Intent(this,upload_Receipe.class));
     }
 }
