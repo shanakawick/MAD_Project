@@ -38,7 +38,7 @@ public MyAdapter(Context mContext, List<FoodData> myFoodList){
 
     @Override
     public void onBindViewHolder(@NonNull final FoodViewHolder foodViewHolder, int i) {
-        foodViewHolder.imageView.setImageResource(myFoodList.get(i).getItemImage());
+        //foodViewHolder.imageView.setImageResource(myFoodList.get(i).getItemImage());
         foodViewHolder.mTitle.setText((myFoodList.get(i).getItemName()));
         foodViewHolder.mDescription.setText((myFoodList.get(i).getItemDescription()));
         foodViewHolder.mPrice.setText((myFoodList.get(i).getItemPrice()));

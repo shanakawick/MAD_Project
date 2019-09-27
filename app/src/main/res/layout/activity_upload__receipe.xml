@@ -58,6 +58,7 @@
             android:text="Upload Receipe"
             android:textSize="22sp"
             android:backgroundTint="@color/colorPrimary"
-            android:textColor="#ffffff"/>
+            android:textColor="#ffffff"
+            android:onClick="btnUploadReceipe"/>
     </LinearLayout>
 </ScrollView>
